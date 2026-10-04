@@ -33,8 +33,8 @@ export function Contact() {
 
   return (
     <section id="contact" className="min-h-screen flex items-center justify-center px-6 pointer-events-none relative z-10 pt-20">
-      <div className="max-w-xl w-full bg-black/40 backdrop-blur-md border border-neutral-800 p-8 md:p-12 pointer-events-auto">
-        <h2 className="text-2xl font-bold mb-8 uppercase tracking-[0.2em] border-l-4 border-amber-500 pl-4">
+      <div className="max-w-md w-full bg-black/40 backdrop-blur-md border border-neutral-800 p-6 md:p-8 pointer-events-auto">
+        <h2 className="text-xl font-bold mb-6 uppercase tracking-[0.2em] border-l-4 border-amber-500 pl-3">
           Initiate Contact
         </h2>
         

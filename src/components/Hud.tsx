@@ -21,7 +21,7 @@ export function Hud() {
   }, [])
 
   return (
-    <div className="fixed inset-0 z-0 pointer-events-none flex flex-col justify-between p-6 overflow-hidden">
+    <div className="fixed inset-0 z-0 pointer-events-none flex flex-col justify-between p-4 md:p-6 overflow-hidden">
       {/* Top Bar */}
       <div className="flex justify-between items-start text-xs font-mono text-amber-500/50 uppercase tracking-widest mt-16">
         <div>

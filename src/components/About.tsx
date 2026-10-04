@@ -21,19 +21,19 @@ export function About() {
         
         {/* Left Column: Massive Editorial Numbering */}
         <div className="md:col-span-4 flex flex-col justify-center items-start md:items-end opacity-20">
-          <div className="text-[12rem] leading-none font-bold text-amber-500 tracking-tighter mix-blend-screen">01</div>
-          <div className="text-xl font-mono text-amber-500 tracking-widest uppercase border-t border-amber-500 pt-4 mt-4 w-full md:text-right">
+          <div className="text-[9rem] leading-none font-bold text-amber-500 tracking-tighter mix-blend-screen">01</div>
+          <div className="text-lg font-mono text-amber-500 tracking-widest uppercase border-t border-amber-500 pt-3 mt-3 w-full md:text-right">
             System Log
           </div>
         </div>
 
         {/* Right Column: The Data Box */}
         <div className="md:col-span-8 relative pointer-events-auto">
-          <div className="max-w-2xl bg-neutral-900/50 border border-amber-500/10 backdrop-blur-md p-10 shadow-2xl relative">
+          <div className="max-w-xl bg-neutral-900/50 border border-amber-500/10 backdrop-blur-md p-8 shadow-2xl relative">
             <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-amber-500/50" />
             <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-amber-500/50" />
             
-            <p className="text-lg md:text-xl text-neutral-300 font-light leading-relaxed flex flex-wrap gap-x-[0.25em]">
+            <p className="text-base md:text-lg text-neutral-300 font-light leading-relaxed flex flex-wrap gap-x-[0.25em]">
               {words.map((word, i) => {
                 const start = i / words.length;
                 const end = start + (1 / words.length);
