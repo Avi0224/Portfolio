@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Hanken Grotesk Variable', sans-serif;
+  
+  --color-obsidian: #050505;
+  --color-glass: rgba(255, 255, 255, 0.03);
+  --color-amber: #f59e0b;
+  --color-amber-bright: #fbbf24;
+  --color-amber-muted: rgba(245, 158, 11, 0.5);
+  --color-text-main: #e5e5e5;
+  --color-text-muted: #a3a3a3;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-obsidian);
+    color: var(--color-text-main);
+    font-family: var(--font-sans);
+    margin: 0;
+    overflow-x: hidden;
+  }
+}
