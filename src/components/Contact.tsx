@@ -98,10 +98,11 @@ export function Contact() {
           </form>
         )}
 
-        <div className="mt-12 pt-8 border-t border-neutral-800 flex gap-6 font-mono text-xs uppercase tracking-widest text-neutral-500">
-          <a href="#" className="hover:text-amber-500 transition-colors">LinkedIn</a>
-          <a href="#" className="hover:text-amber-500 transition-colors">GitHub</a>
-          <a href="#" className="hover:text-amber-500 transition-colors">Direct Comm</a>
+        <div className="mt-12 pt-8 border-t border-neutral-800 flex gap-4 md:gap-6 font-mono text-[10px] md:text-xs uppercase tracking-widest text-neutral-500 flex-wrap">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="hover:text-amber-500 transition-colors">LinkedIn</a>
+          <a href="https://github.com/Avi0224" target="_blank" rel="noreferrer" className="hover:text-amber-500 transition-colors">GitHub</a>
+          <a href="https://www.instagram.com/avi_02_24_" target="_blank" rel="noreferrer" className="hover:text-amber-500 transition-colors">Instagram</a>
+          <a href="mailto:avibhav21@gmail.com" className="hover:text-amber-500 transition-colors">Direct Comm</a>
         </div>
       </div>
     </section>
